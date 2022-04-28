@@ -2239,7 +2239,8 @@ input, select, textarea {
 			}
 
 			ul.labeled-icons li h3 {
-				color: #b2b2b2;
+				/* color: #b2b2b2; */
+				color: #ffffff;
 				left: 0;
 				position: absolute;
 				text-align: center;
@@ -2600,12 +2601,12 @@ input, select, textarea {
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background-color: #1f1815;
-		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-		background-position: top left,							top left;
-		background-repeat: repeat,								no-repeat;
-		background-size: auto,								150%;
-		color: rgba(255, 255, 255, 0.5);
+		background-attachment: scroll, scroll;
+		background-image: url("images/overlay.png"), url("../../images/bg.jpeg");
+		background-position: top left, top left;
+		background-repeat: repeat, no-repeat;
+		background-size: auto,150%;
+		/* color: rgba(255, 255, 255, 0.5); */
 		height: 100%;
 		left: 0;
 		padding: 8em 4em;
@@ -2640,7 +2641,7 @@ input, select, textarea {
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			color: #ffffff;
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
@@ -2658,11 +2659,13 @@ input, select, textarea {
 	}
 
 		#footer .icons a {
-			color: rgba(255, 255, 255, 0.4);
+			/* color: rgba(255, 255, 255, 0.4); */
+			color:#ffffff;
 		}
 
 	#footer .copyright {
-		color: rgba(255, 255, 255, 0.4);
+		/* color: rgba(255, 255, 255, 0.4); */
+		color:#ffffff;
 		font-size: 0.8em;
 		list-style: none;
 		margin: 1em 0 0 0;
@@ -3086,7 +3089,7 @@ input, select, textarea {
 			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+				background-image: url("images/overlay.png"), url("../../images/bg.jgp.jpeg");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
